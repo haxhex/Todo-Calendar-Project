@@ -1,0 +1,109 @@
+.jalali-date-picker {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .jalali-date-picker input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .calendar {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    z-index: 1;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .arrow {
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .month {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 5px;
+    padding: 10px;
+  }
+  
+  .day {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .day.empty {
+    background-color: transparent;
+    cursor: default;
+  }
+  
+  .day.selected {
+    background-color: #007bff;
+    color: #fff;
+  }
+
+  .month-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-top: none;
+    z-index: 2;
+  }
+  
+  .month-dropdown option {
+    padding: 5px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .month-dropdown option:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .month-dropdown option:selected {
+    background-color: #e0e0e0;
+  }
+  
+  .weekday {
+    display: inline-block;
+    width: calc(100% / 7);
+    text-align: center;
+    white-space: pre-wrap;
+  }
+  
+
+  .week-day-label {
+    display: inline-block;
+    width: calc(100% / 7);
+    text-align: center;
+  }
+  

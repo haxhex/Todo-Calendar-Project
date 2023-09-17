@@ -1,0 +1,271 @@
+.tab-list {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .tab-list span {
+    cursor: pointer;
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 0 4px;
+    color: #333;
+    
+    border-radius: 200px;
+  }
+  
+  .tab-list span.active {
+    background-color: #000;
+    color: #fff;
+    border-color: #000;
+  }
+  
+  /* Add styles for the buttons */
+  .btn {
+    border-radius: 4px;
+  }
+
+  .tab-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .toggle-container {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .filter-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  button {
+    margin-top: 1rem;
+  }
+  
+
+  /* Add this to your styles.css or any appropriate CSS file */
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px; /* Adjust the gap between tags as needed */
+}
+
+.tag-item {
+  background-color: #007bff;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.selected-tag {
+  background-color: #007bff;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  margin-right: 8px; /* Adjust the spacing between tags as needed */
+  margin-bottom: 8px; /* Adjust the spacing between tags as needed */
+}
+
+.remove-tag {
+  cursor: pointer;
+  margin-left: 4px; /* Adjust the spacing between the tag text and 'x' */
+}
+
+.remove-tag:hover {
+  background-color: #dc3545;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+/* Add this to your styles.css or any appropriate CSS file */
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px; /* Adjust the gap between tags as needed */
+}
+
+.tag-item {
+  background-color: #007bff;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.tag-item.selected {
+  background-color: #dc3545; /* Change the background color for selected tags */
+}
+
+.time-field-container {
+  /* Add custom styles for the TimeField container here */
+  width: 200px; /* Adjust the width as needed */
+  font-size: 16px; /* Adjust the font size as needed */
+}
+
+.notification {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.notification.active {
+  background-color: yellow;
+}
+
+.dropdown-content {
+  position: absolute;
+  top: 40px; /* Adjust the distance from the bell icon */
+  right: 0;
+  width: 200px;
+  background-color: white;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  z-index: 1;
+}
+
+.dropdown-content h4 {
+  margin-bottom: 5px;
+}
+
+.dropdown-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-content li {
+  padding: 5px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+/* .my-app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e9f3fe;
+} */
+
+.parent {
+  width: 450px;
+  margin: auto;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 25px;
+  box-shadow: 7px 20px 20px rgb(210, 227, 244);
+}
+.file-upload {
+  text-align: center;
+  border: 3px dashed rgb(210, 227, 244);
+  padding: 1.5rem;
+  position: relative;
+  cursor: pointer;
+}
+.file-upload p {
+  font-size: 0.87rem;
+  margin-top: 10px;
+  color: #bbcada;
+}
+.file-upload input {
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.ql-editor {
+  direction: rtl;
+}
+
+@media (min-width: 768px) {
+  .new-date {
+    margin-right: 335px;
+  }
+}
+
+@media (min-width: 768px) {
+  .edit-rmv-btn {
+    position: absolute; 
+    margin-right: 82%;
+  }
+}
+
+@media (min-width: 768px) {
+  .st-en-tm {
+    position: absolute;
+    margin-right: 31%;
+  }
+}
+
+@media (min-width: 768px) {
+  .dur {
+    position: absolute;
+    margin-right: 58%;
+  }
+}
+
+.my-header {
+  display: flex;
+  /* justify-content: flex-start; */
+  justify-content: center;
+  align-items: center;
+  /* margin-right: 40px; */
+  margin-bottom: 20px;
+}
+
+@media (min-width: 767px) {
+  .col-sm-17 {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .col-sm-17 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (min-width: 767px) {
+  .date-range {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .date-range {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (min-width: 767px) {
+  .date-margin {
+    margin-right: 15%;
+  }
+}
+

@@ -1,0 +1,174 @@
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+
+.parent {
+    width: 450px;
+    margin: auto;
+    padding: 2rem;
+    background: #ffffff;
+    border-radius: 25px;
+    box-shadow: 7px 20px 20px rgb(210, 227, 244);
+  }
+  .file-upload {
+    text-align: center;
+    border: 3px dashed rgb(210, 227, 244);
+    padding: 1.5rem;
+    position: relative;
+    cursor: pointer;
+  }
+  .file-upload p {
+    font-size: 0.87rem;
+    margin-top: 10px;
+    color: #bbcada;
+  }
+  .file-upload input {
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  
+  
+  .custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+  }
+
+
+  #fileInput {
+    display: none;
+  }
+
+  table {
+    border-collapse: separate;
+    border-spacing: 0;
+    overflow: hidden;
+  }
+  th {
+    background-color: #e0413d;
+    color: #FFFFFF;
+  }
+  th, td {
+    padding: 10px;
+    border: 1px solid #FF0000;
+  }
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  tr:first-child th:first-child {
+    border-top-left-radius: 10px;
+  }
+  tr:first-child th:last-child {
+    border-top-right-radius: 10px;
+  }
+  tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+  }
+  tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+  }
+
+.ReactTags__selected {
+    direction: rtl;
+    text-align: right;
+}
+
+.ReactTags__tagInputField {
+    direction: ltr;
+    text-align: right;
+    margin-top: 5px;
+    border: 2px solid #f2f4f5;
+    padding: 5px;
+    border-radius: 0.3rem;
+}
+
+.ReactTags__tag {
+    /* Customize tag appearance */
+    background-color: #9c27b0;
+    color: #fff;
+    border-radius: 4px;
+    margin: 2px;
+    padding: 4px 8px;
+  }
+  
+.ReactTags__remove {
+/* Customize tag remove button */
+margin-left: 4px;
+cursor: pointer;
+}
+
+.ReactTags__tagInput {
+    margin-top: 5px;
+}
+
+.ql-toolbar {
+  direction: ltr;
+  text-align: left;
+}
+
+.ql-toolbar.ql-snow {
+  padding: 4px;
+}
+
+.wrapper {
+  direction: ltr;
+}
+
+.time_picker_modal_header {
+  background-color : #9c27b0;
+}
+
+
+.ql-toolbar {
+  text-align: left;
+}
+
+.ql-blank {
+  text-align: right;
+}
+
+.ql-snow.ql-toolbar button {
+  width: 24px;
+}
+
+.ReactTags {
+  position: relative;
+}
+
+
+.ReactTags__selected {
+  direction: rtl;
+  text-align: right;
+  padding: 4px 8px; /* Adjust padding as needed */
+  display: flex;
+  flex-direction: column; /* Display tags in a column layout */
+  align-items: flex-start; /* Align tags to the left */
+}
+
+.ReactTags__selected-tag {
+  background-color: #007bff; /* Example background color */
+  color: white; /* Example text color */
+  border-radius: 4px;
+  margin: 2px;
+  padding: 2px 8px; /* Adjust padding as needed */
+  cursor: pointer;
+}
+
+

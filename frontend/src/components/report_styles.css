@@ -1,0 +1,129 @@
+.tab-list {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .tab-list span {
+    cursor: pointer;
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 0 4px;
+    color: #333;
+    
+    border-radius: 200px;
+  }
+  
+  .tab-list span.active {
+    background-color: #000;
+    color: #fff;
+    border-color: #000;
+  }
+  
+  /* Add styles for the buttons */
+  .btn {
+    border-radius: 4px;
+  }
+
+  .tab-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .toggle-container {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .filter-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  button {
+    margin-top: 1rem;
+  }
+  
+
+  /* Add this to your styles.css or any appropriate CSS file */
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px; /* Adjust the gap between tags as needed */
+}
+
+.tag-item {
+  background-color: #007bff;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.selected-tag {
+  background-color: #007bff;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  margin-right: 8px; /* Adjust the spacing between tags as needed */
+  margin-bottom: 8px; /* Adjust the spacing between tags as needed */
+}
+
+.remove-tag {
+  cursor: pointer;
+  margin-left: 4px; /* Adjust the spacing between the tag text and 'x' */
+}
+
+.remove-tag:hover {
+  background-color: #dc3545;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+/* Add this to your styles.css or any appropriate CSS file */
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px; /* Adjust the gap between tags as needed */
+}
+
+.tag-item {
+  background-color: #007bff;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.tag-item.selected {
+  background-color: #dc3545; /* Change the background color for selected tags */
+}
+
+.time-field-container {
+  /* Add custom styles for the TimeField container here */
+  width: 200px; /* Adjust the width as needed */
+  font-size: 16px; /* Adjust the font size as needed */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+.diagram-container {
+width: 50%;
+}
+
+.task-list-container {
+width: 50%;
+}
+  

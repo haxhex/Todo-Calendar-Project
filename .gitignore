@@ -1,0 +1,48 @@
+# Ignore Django-related files and directories
+*.pyc
+__pycache__/
+*.db
+*.sqlite3
+*.log
+*.pot
+*.pyo
+*.swp
+*.swo
+media/
+static_root/
+*.bak
+*.sql
+*.xlsx
+
+# Ignore Node.js-related files and directories
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn.lock
+
+# Ignore development and production build files
+build/
+dist/
+coverage/
+*.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.*.local
+
+# Ignore editor/IDE-specific files
+.vscode/
+.idea/
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore cache and temporary files
+*.cache/
+*.tmp/
+
+# Ignore package manager lock files
+package-lock.json
+yarn.lock

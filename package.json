@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "react-times": "^3.1.12"
+  },
+  "dependencies": {
+    "persianjs": "^0.4.0",
+    "react-time-picker": "^6.5.0"
+  }
+}

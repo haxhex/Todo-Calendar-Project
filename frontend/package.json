@@ -1,0 +1,91 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fortawesome/fontawesome-free": "^6.4.2",
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@kasraghoreyshi/calendar": "^0.0.5",
+    "@kasraghoreyshi/datepicker": "^0.1.4",
+    "@mobiscroll/react-lite": "^4.10.9",
+    "@mui/icons-material": "^5.14.1",
+    "@mui/material": "^5.14.2",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "antd-jalali-react18": "^1.0.1",
+    "axios": "^1.4.0",
+    "bootstrap": "^5.3.1",
+    "d3": "^7.8.5",
+    "draft-js": "^0.11.7",
+    "jalali-moment": "^3.3.11",
+    "jalali-react-datepicker": "^1.2.3",
+    "mantine-datepicker-jalali": "^1.2.3",
+    "mobiscroll-react": "^4.0.0",
+    "moment-hijri": "^2.1.2",
+    "moment-jalaali": "^0.10.0",
+    "persian-date": "^1.1.0",
+    "persian-date-picker-reactjs": "^1.3.10",
+    "persian-datepicker": "^1.2.0",
+    "persian-number": "^1.5.1",
+    "persianjs": "^0.4.0",
+    "rc-time-picker": "^3.7.3",
+    "react": "^18.2.0",
+    "react-beautiful-dnd": "^13.1.1",
+    "react-big-calendar": "^1.8.1",
+    "react-bootstrap": "^2.8.0",
+    "react-bootstrap-jalali-calendar": "^0.2.4",
+    "react-bootstrap-time-picker": "^2.0.1",
+    "react-datepicker": "^4.16.0",
+    "react-dom": "^18.2.0",
+    "react-draft-wysiwyg": "^1.15.0",
+    "react-hamburger-menu": "^1.2.1",
+    "react-i18next": "^13.2.0",
+    "react-icons": "^4.10.1",
+    "react-modern-calendar-datepicker": "^3.1.6",
+    "react-quill": "^2.0.0",
+    "react-redux": "^8.1.1",
+    "react-router-dom": "^6.14.2",
+    "react-scripts": "5.0.1",
+    "react-simple-timefield": "^3.3.1",
+    "react-tag-input": "^6.8.1",
+    "react-tagsinput": "^3.20.3",
+    "reactstrap": "^9.2.0",
+    "recharts": "^2.7.2",
+    "shamsi-date-converter": "^1.0.5",
+    "web-vitals": "^2.1.4",
+    "zaman": "^2.0.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+  }
+}
