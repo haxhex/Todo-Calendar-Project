@@ -1,0 +1,8 @@
+# Todo-Calendar-Project
+Bachelor's Degree Final Project<br>
+# Abstract
+In the complexities and multifaceted needs of today's society, managing tasks and programs become fundamental challenges. Schedule, time optimization and task management are important for people. This becomes an important and multifaceted challenge, especially for people active in social and professional affairs.<br>
+To counter these tools, "to-do list" tools are commonly used to manage tasks and schedules. These tools allow users to record, manage and prioritize their tasks. Additionally, calendars play a vital role in planning and scheduling as time display tools.<br>
+The combination of these tools with the Persian calendar improves and exploits these tools. Due to its compatibility with the solar calendar, the Persian calendar allows for more accurate management and compatibility with cultural calendars. Also, the ability to add comments, deadlines, and attachments to the to-do list makes this a versatile tool.<br>
+Other features of this software include creating analytical reports, managing categories and tags, time changes, the ability to search among tasks, sending the mentioned emails for tasks due, and sending advertisements on a schedule. These facilities provide users with better management and more accurate planning.<br>
+This software provides a web-based tool to the individual. This tool offers users the possibility of better management and more detailed planning with smart combinations of "to-do list" programs and Persian calendar. This software is suitable for people who are looking for more productivity from their time and need to better manage their tasks and schedules.
